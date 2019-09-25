@@ -8,8 +8,6 @@ class Satelite {
         this.satlng = satlng;
         this.satalt = satalt;
         this.satinfo = setInfo(satinfo);
-
-
         this.SatDesignation = () => {
             return this.satname + " (" + this.id + ")";
         };
