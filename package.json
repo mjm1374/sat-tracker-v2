@@ -7,9 +7,17 @@
     "test": "jasmine"
   },
   "dependencies": {
+    "autoprefixer": "^9.6.4",
     "cookie-parser": "~1.4.4",
+    "cssnano": "^4.1.10",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "lbx-tardis": "^1.1.2",
