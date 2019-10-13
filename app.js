@@ -7,6 +7,7 @@ var tardis = require('lbx-tardis');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const port = 3000
 
 var app = express();
 
@@ -38,5 +39,10 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+//start the server
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 module.exports = app;
